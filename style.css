@@ -5,7 +5,7 @@
 } */
 
 #main {
-    height: 100vh;
+    height: 65vh;
     position: relative;
     color: white;
     width: 100%;    
@@ -15,6 +15,7 @@
 }
 
 #headshot {
+    padding-top: 45px;
     max-height: 300px;
     width: auto;
 }
@@ -28,5 +29,5 @@
 }
 
 #mainRow {
-    height: 100vh;
+    height: 65vh;
 }
