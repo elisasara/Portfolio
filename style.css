@@ -5,7 +5,7 @@
 } */
 
 #main {
-    height: 65vh;
+    height: 100vh;
     position: relative;
     color: white;
     width: 100%;    
@@ -29,5 +29,5 @@
 }
 
 #mainRow {
-    height: 65vh;
+    height: 100vh;
 }
