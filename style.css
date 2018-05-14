@@ -1,6 +1,8 @@
     body {
         font-family: "Josefin Sans", "sans-serif";
         font-weight: 300;
+        background-color: #4b0029;
+        color: white;
     }
 
 #main {
@@ -11,6 +13,7 @@
     background-image: url("./images/rainbowComputer2.jpeg");
     background-size: cover;
     background-position: center;
+    box-shadow: 10px #4b0029;
 }
 
 #headshot {
@@ -48,6 +51,11 @@ h3 {
 #portfolioArea {
     width: 90%
 }
+
+/* #portfolio {
+    background-color: #35273a;
+    color: white;
+} */
 
 #row2 {
     padding-top: 20px
