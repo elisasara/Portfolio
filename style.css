@@ -1,6 +1,7 @@
-body {
-    font-family: "Josefin Sans", "sans-serif"
-}
+    body {
+        font-family: "Josefin Sans", "sans-serif";
+        font-weight: 300;
+    }
 
 #main {
     height: 100vh;
@@ -31,5 +32,23 @@ body {
 }
 
 h3 {
-    font-family: "Cinzel Decorative", "cursive"
+    font-family: "Josefin Sans", "sans-serif";
+    font-weight: 400;
+    font-style: italic;
+}
+
+.portfolioImage {
+    max-height: 175px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolioArea {
+    width: 90%
+}
+
+#row2 {
+    padding-top: 20px
 }
