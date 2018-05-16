@@ -15,12 +15,11 @@
             <div class="container">
                 <div id="mainRow">
                     <div class="row valign-wrapper">
-                        <div class="col m8">
-                            <h1>Elisa Urda</h1>
-                            <h3>Full-Stack Web Developer</h3>
-                        </div>
-                        <div class="col m4" id="headshotArea">
-                            <img class="circle responsive-image" id="headshot" src="images/headshot.jpg">
+                        <div id="title">
+                            <center>
+                                <h1>Elisa Urda</h1>
+                                <h3>Full-Stack Web Developer</h3>
+                            </center>
                         </div>
                     </div>
                 </div>
@@ -33,13 +32,20 @@
                     <center>
                         <h3>About Elisa</h3>
                     </center>
-                    <p class="flow-text">A full-stack web developer with a background in non-profit fundraising, communications, event planning,
-                        and project management. A collaborative team player driven to continually learn new skills. A quick
-                        learner, strategic thinker, and problem solver.</p>
+                    <div class="row">
+                        <div class="col m8">
+                            <p class="flow-text">A full-stack web developer with a background in non-profit fundraising, communications, event
+                                planning, and project management. A collaborative team player driven to continually learn
+                                new skills. A quick learner, strategic thinker, and problem solver.</p>
+                        </div>
+                        <div class="col m4" id="headshotArea">
+                            <img class="circle responsive-image" id="headshot" src="images/headshot.jpg">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <hr>
+        <!-- <hr>
 
         <div class="container">
             <div class="row">
@@ -76,7 +82,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -117,10 +123,10 @@
                         <a href="https://elisasara.github.io/giphy-project/">
                             <img src="./images/giphy.png" class="portfolioImage z-depth-2">
                         </a>
-                            <center>
-                                <p class="title">NFL Giphy</p>
-                                <p>Using: AJAX calls, Javascript, JQuery, Bootstrap</p>
-                            </center>
+                        <center>
+                            <p class="title">NFL Giphy</p>
+                            <p>Using: AJAX calls, Javascript, JQuery, Bootstrap</p>
+                        </center>
                     </div>
                 </div>
                 <div class="row" id="row2">
@@ -129,54 +135,80 @@
                         <a href="https://elisasara.github.io/crystal-collector/">
                             <img src="./images/crystalCollector.png" class="portfolioImage z-depth-2">
                         </a>
-                        <center><p class="title">Crystal Collector</p>
-                        <p>Using: Javascript, JQuery, Bootstrap</p></center>
+                        <center>
+                            <p class="title">Crystal Collector</p>
+                            <p>Using: Javascript, JQuery, Bootstrap</p>
+                        </center>
                     </div>
                     <div class="col m4">
                         <!--item 5 -->
                         <a href="https://github.com/elisasara/bamazon" target="blank">
                             <img src="./images/bamazon.png" class="portfolioImage z-depth-2">
                         </a>
-                        <center><p class="title">Bamazon</p>
-                        <p>Using: MySQL, NodeJS, Javascript</p></center>
+                        <center>
+                            <p class="title">Bamazon</p>
+                            <p>Using: MySQL, NodeJS, Javascript</p>
+                        </center>
                     </div>
                     <div class="col m4">
                         <!--item 6 -->
                         <a href="https://elisasara.github.io/Hangman-Game/" target="blank">
                             <img src="./images/hangman.png" class="portfolioImage z-depth-2">
                         </a>
-                        <center><p class="title">Hangman</p>
-                            <p>Using: HTML, CSS, Javascript</p></center>
+                        <center>
+                            <p class="title">Hangman</p>
+                            <p>Using: HTML, CSS, Javascript</p>
+                        </center>
                     </div>
                 </div>
             </div>
         </div>
-        <hr >
+        <hr>
 
         <div id="contactMe">
+            <div class="container">
+            <div class="row">
+                <center>
+                    <h3>Contact Me</h3>
+                </center>
+            </div>
             <div class="row">
                 <div class="col m4">
                     <!-- Github -->
+                    <a href="https://github.com/elisasara" target="blank">
+                        <img class="contactIcon" src="images/githubLogo.png" alt="github">
+                    </a>
                 </div>
                 <div class="col m4">
                     <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/elisa-urda/" target="blank">
+                        <img class="contactIcon" src="images/linkedInLogo.png" alt="github">
+                    </a>
                 </div>
                 <div class="col m4">
                     <!-- Email -->
+                    <a href="mailto:urda.elisa@gmail.com" target="blank">
+                        <img class="contactIcon" src="images/emailIcon.png" alt="github">
+                    </a>
                 </div>
             </div>
             <form>
-                <input type="text" id="name">
-                <label for="name">Name</label>
-                <br />
-                <input type="email" id="email">
+                <div class="input-field">
+                    <input type="text" id="name" class="validate">
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                <input type="email" id="email" class="validate">
                 <label for="email">Email</label>
-                <br />
-                <input type="text" id="message">
+            </div>
+            <div class="input-field">
+                <input type="text" id="message" class="validate">
                 <label for="message">Message</label>
+            </div>
                 <button type="submit">Submit</button>
             </form>
         </div>
+    </div>
 
     </body>
 
