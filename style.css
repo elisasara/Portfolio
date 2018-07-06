@@ -55,11 +55,16 @@ h3 {
 }
 
 .portfolioImage {
-    max-height: 175px;
-    width: auto;
+    max-height: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+
+.imageArea {
+    height: 150px;
 }
 
 #portfolioArea {
